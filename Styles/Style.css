@@ -28,6 +28,9 @@
   margin-right: 330px;
 }
 
+.sign-in:hover {
+  background-color: white;
+}
 /* banner styles */
 
 .banner-container {
@@ -82,6 +85,10 @@
   border-radius: 8px;
   border-style: none;
 }
+.btn-explore:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
 
 /* pillar style */
 .pillar-section {
@@ -106,6 +113,9 @@
   background-color: #f1f1f3;
   border-radius: 16px;
   padding: 24px 24px;
+}
+.pillar-content:hover {
+  background-color: #c6e4d6;
 }
 
 .pillar-content-title {
@@ -151,16 +161,18 @@
   border-radius: 16px;
   padding: 32px;
 }
-.vision-icon-1 {
-  background-color: rgba(84, 144, 245, 20%);
+.vision-content-1:hover {
+  background-color: #f1f1f3;
 }
+
 .vision-content-2 {
   background-color: #c6e4d6;
   border-radius: 16px;
   padding: 32px;
 }
-.vision-icon-2 {
-  background-color: #c6e4d6;
+
+.vision-content-2:hover {
+  background-color: #f1f1f3;
 }
 
 .vision-content-3 {
@@ -168,8 +180,8 @@
   border-radius: 16px;
   padding: 32px;
 }
-.vision-icon-3 {
-  background-color: #f7ebcf;
+.vision-content-3:hover {
+  background-color: #f1f1f3;
 }
 .vision-content-title {
   font-family: "Fira Sans", sans-serif;
@@ -195,6 +207,10 @@
   border-style: none;
   margin-top: 24px;
 }
+.LM-btn-1:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
 
 .LM-btn-2 {
   padding: 11px 20px;
@@ -207,6 +223,10 @@
   border-style: none;
   margin-top: 24px;
 }
+.LM-btn-2:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
 .LM-btn-3 {
   padding: 11px 20px;
   background-color: #ffc239;
@@ -218,7 +238,10 @@
   border-style: none;
   margin-top: 24px;
 }
-
+.LM-btn-3:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
 /* quote-section style */
 
 .quote-section {
@@ -332,6 +355,10 @@
   border-style: none;
   margin-top: 32px;
 }
+.news-btn-1:hover {
+  background-color: white;
+  color: #0e0e0e;
+}
 
 .news-contents-2 {
   margin-top: 24px;
@@ -377,6 +404,9 @@
 .donate-btn-color {
   background-color: #c6e4d6;
 }
+.donate-btn:hover {
+  background-color: #c6e4d6;
+}
 
 input[type="text"] {
   height: 64px;
@@ -407,4 +437,66 @@ input[type="text"] {
   background-color: #006a50;
   border-style: none;
   border-radius: 8px;
+}
+.done-btn:hover {
+  background-color: #c6e4d6;
+  color: #0e0e0e;
+}
+
+/* footer style */
+
+.footer-section {
+  background-color: #c6e4d6;
+  text-align: center;
+  padding: 80px 265px;
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.footer-heading {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.footer-description {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  height: 55px;
+  width: 550px;
+  padding-left: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-style: none;
+  margin-top: 20px;
+}
+
+.btn-subscribe {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  padding: 17px 34px;
+  color: white;
+  background-color: #006a50;
+  margin-left: -5px;
+  border-style: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.btn-subscribe:hover {
+  background-color: #c6e4d6;
+  color: #0e0e0e;
+}
+.subscribe-descripton {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  margin-top: 20px;
 }
