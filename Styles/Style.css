@@ -1,0 +1,76 @@
+/* font styles */
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+}
+
+/* navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Fira Sans", serif;
+  font-size: 32px;
+  color: #0e0e0e;
+  margin-left: 300px;
+}
+
+.sign-in {
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: #006a50;
+  border: 1px solid #006a50;
+  font-weight: 600;
+  margin-right: 330px;
+}
+
+/* banner styles */
+
+.banner-container {
+  background-color: #c6e4d6;
+  height: 560px;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 300px;
+  border-radius: 24px;
+}
+
+.banner-title {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 50%);
+  padding-left: 59.9px;
+}
+
+.banner-description {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #0e0e0e;
+  padding-left: 59.9px;
+  padding-right: 39.9px;
+  margin-top: -10px;
+}
+
+.banner-img {
+  padding-right: 59.9px;
+}
+
+.btn-explore {
+  font-family: "Fira Sans", sans-serif;
+  padding: 17px 34px;
+  margin-left: 59.9px;
+  margin-top: -20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600px;
+  background-color: #006a50;
+  border-radius: 8px;
+  border-style: none;
+}
